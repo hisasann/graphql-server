@@ -1,7 +1,8 @@
 const { ApolloServer, gql } = require('apollo-server');
 const { find } = require('lodash');
-
 const books = require('./data');
+
+// via [Basic Apollo app - CodeSandbox](https://codesandbox.io/s/nn9y2wzyw4)
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
@@ -28,6 +29,10 @@ const typeDefs = gql`
 // schema. This resolver retrieves books from the "books" array above.
 const resolvers = {
   Query: {
+    // parent: 上位のリゾルバで解決した結果を含むオブジェクト
+    // args: このリゾルバに、クエリから渡された引数
+    // context: 外部から依存関係を注入するために使用する、共有引数
+    // info: クエリの実行状態に関する情報
     book(parent, args, context, info) {
       return find(books, { author: args.author });
     },
