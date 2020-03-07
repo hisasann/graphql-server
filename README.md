@@ -20,3 +20,15 @@ type Query {
 つまり、必須オプションという意味になります。
 
 [GraphQLのスキーマと型定義 - Qiita](https://qiita.com/NagaokaKenichi/items/d341dc092012e05d6606)
+
+## 参考にしたコード
+
+[react-apollo/examples/hooks at master · apollographql/react-apollo](https://github.com/apollographql/react-apollo/tree/master/examples/hooks)
+
+## 参考記事
+
+[GraphQLとクライアントサイドの実装指針.md](https://gist.github.com/Quramy/566ea87d0121ceb8cd97ad9d14b63fd8)
+
+[GraphQLの全体像とWebApp開発のこれから - Qiita](https://qiita.com/saboyutaka/items/171f7382cdf75b67d076)
+
+[Reducing our Redux code with React Apollo - Apollo GraphQL](https://blog.apollographql.com/reducing-our-redux-code-with-react-apollo-5091b9de9c2a)
