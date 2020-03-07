@@ -14,7 +14,7 @@ const typeDefs = gql`
     book(author: String!): Book
     books: [Book]
   }
-  
+
   type Mutation {
     addBook(title: String!, author: String!): Book!
   }
@@ -40,7 +40,7 @@ const resolvers = {
       books.push(post);
       return post;
     },
-  }
+  },
 };
 
 // The ApolloServer constructor requires two parameters: your schema
