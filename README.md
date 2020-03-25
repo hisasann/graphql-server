@@ -32,3 +32,12 @@ type Query {
 [GraphQLの全体像とWebApp開発のこれから - Qiita](https://qiita.com/saboyutaka/items/171f7382cdf75b67d076)
 
 [Reducing our Redux code with React Apollo - Apollo GraphQL](https://blog.apollographql.com/reducing-our-redux-code-with-react-apollo-5091b9de9c2a)
+
+## 🍟 Author
+
+- [github/hisasann](https://github.com/hisasann)
+- [twitter/hisasann](https://twitter.com/hisasann)
+
+## 🥫 License
+
+MIT © [hisasann (Yoshiyuki Hisamatsu)](https://github.com/hisasann)
