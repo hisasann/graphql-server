@@ -8,12 +8,12 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "apollo-server": "^2.10.1",
-    "graphql": "^14.6.0",
-    "lodash": "^4.17.15"
+    "apollo-server": "2.10.1",
+    "graphql": "14.6.0",
+    "lodash": "4.17.15"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2",
-    "prettier": "^1.19.1"
+    "nodemon": "2.0.2",
+    "prettier": "1.19.1"
   }
 }
